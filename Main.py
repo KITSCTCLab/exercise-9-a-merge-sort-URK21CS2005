@@ -24,7 +24,8 @@ def merge_sort(myList) -> None:
               # Move the iterator forward
               i += 1
             else:
-                myList[k] = right[j]
+                myList[k] = right (j)
+               
                 j += 1
             # Move to the next slot
             k += 1
